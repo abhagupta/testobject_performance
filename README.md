@@ -29,8 +29,10 @@ To fix the WebDriver.createSession error, comment out the lines # 29 and 30
  chromeOptions.setPerfLoggingPrefs(perfLogConf);
  ```
 
- in simple_appium_test.js and run script again.
+ in simple_appium_test.js and run script again. You will be able to open the browser successfully on the device.
 
+
+### Comparison with saucelabs
 To compare the execution with simple browser tests in saucelabs, run
 ```
 node simple_selenium_test.js
