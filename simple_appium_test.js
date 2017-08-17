@@ -8,7 +8,7 @@ var webdriver = require('selenium-webdriver'),
 builder = new webdriver.Builder().
     withCapabilities({
     'testobject_appium_version': '1.6.4',
-    'testobject_api_key' :'138A6077BDDD4336AC17F65B0099561E',
+    'testobject_api_key' : process.env.TESTOBJECT_ACCESS_KEY,
     'testobject_device':'Samsung_Galaxy_S8_wm8',
     'browserName': 'browser',
     'enablePerformanceLogging': 'true',
